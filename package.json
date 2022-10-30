@@ -1,0 +1,43 @@
+{
+  "name": "app-playground",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"**/*.{js,ts,tsx,md}\""
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "semi": true,
+    "trailingComma": "all",
+    "singleQuote": true
+  },
+  "dependencies": {
+    "@heroicons/react": "1.0.6",
+    "@tailwindcss/forms": "0.5.3",
+    "clsx": "1.2.1",
+    "date-fns": "2.29.3",
+    "dinero.js": "2.0.0-alpha.8",
+    "next": "13.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "6.0.0-beta.2",
+    "use-count-up": "3.0.1"
+  },
+  "devDependencies": {
+    "@types/ms": "0.7.31",
+    "@types/node": "18.11.6",
+    "@types/react": "18.0.23",
+    "@types/react-dom": "18.0.7",
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.12",
+    "tailwindcss": "^3.1.6",
+    "typescript": "4.8.4"
+  }
+}
